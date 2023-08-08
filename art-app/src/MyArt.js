@@ -1,5 +1,6 @@
 import React from 'react';
 import Artwork from './Artwork';
+import './App.css';
 
 const MyArt = ({ myArt, removeFromMyArt }) => {
   return (

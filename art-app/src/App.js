@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './Home';
 import MyArt from './MyArt';
 import About from './About'; 
+import './App.css'
 
 const App = () => {
   const [myArt, setMyArt] = useState([]);
